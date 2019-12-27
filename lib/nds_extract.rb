@@ -38,9 +38,7 @@ def directors_totals(nds)
        director_name = nds[i][:name] 
         
          director_totals = gross_for_director(nds[i])
-        
-        
-         result[director_name] = director_totals
+           result[director_name] = director_totals
   
   #binding.pry
   
