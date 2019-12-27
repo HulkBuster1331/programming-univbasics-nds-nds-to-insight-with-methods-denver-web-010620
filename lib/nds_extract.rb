@@ -7,6 +7,7 @@ require 'pry'
 
 
 def gross_for_director(director_data)
+
    #binding.pry
      total = 0 
        i = 0 
@@ -21,12 +22,10 @@ def gross_for_director(director_data)
     end
    total
 end
-# Write a method that, given an NDS creates a new Hash
-# The return value should be like:
-#
-# { directorOne => allTheMoneyTheyMade, ... }
-
-
+   
+   
+   
+   
 
 def directors_totals(nds)
  
